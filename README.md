@@ -4,6 +4,7 @@ A Linux-based proof-of-concept simulator that models a network of production mac
 
 ## 📁 Project Structure
 
+```
 Hoochamacallit/
 ├── DC/               # Data Creator
 │   ├── src/
@@ -15,7 +16,7 @@ Hoochamacallit/
 │   └── Makefile
 ├── Makefile          # Top-level Makefile
 └── README.md         # Project documentation
-
+```
 ---
 
 ## 🛠️ Technologies & Tools Used
