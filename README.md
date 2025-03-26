@@ -14,6 +14,10 @@ Hoochamacallit/
 │   ├── src/
 │   ├── bin/
 │   └── Makefile
+├── COMMON/           # Shared Resources used in DC, DR, DX
+│   ├── src/
+│   ├── bin/
+│   └── Makefile
 ├── Makefile          # Top-level Makefile
 └── README.md         # Project documentation
 ```
@@ -73,16 +77,6 @@ Hoochamacallit/
 | DC        | `/tmp/dataCreator.log`   | Message status sent to DR              |
 | DR        | `/tmp/dataMonitor.log`   | All events regarding DC tracking       |
 | DX        | `/tmp/dataCorruptor.log` | Actions taken during fault simulation  |
-
----
-
-## 🧪 Development & Submission Notes
-
-- No console output is allowed in the final version.
-- Maximum of **10 DC processes** are supported.
-- Ensure **proper error handling** for IPC operations.
-- Submit as: `Hoochamacallit.tar`
-- All binaries must be built via individual Makefiles.
 
 ---
 
