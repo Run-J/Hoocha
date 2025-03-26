@@ -4,7 +4,17 @@ A Linux-based proof-of-concept simulator that models a network of production mac
 
 ## 📁 Project Structure
 
-Hoochamacallit/ ├── DC/ # Data Creator │ ├── src/ │ ├── bin/ │ └── Makefile ├── DR_DX/ # Data Reader & Data Corruptor (shared folder) │ ├── src/ │ ├── bin/ │ └── Makefile ├── Makefile # Top-level Makefile └── README.md # Project documentation
+Hoochamacallit/
+├── DC/               # Data Creator
+│   ├── src/
+│   ├── bin/
+│   └── Makefile
+├── DR_DX/            # Data Reader & Data Corruptor (shared folder)
+│   ├── src/
+│   ├── bin/
+│   └── Makefile
+├── Makefile          # Top-level Makefile
+└── README.md         # Project documentation
 
 ---
 
